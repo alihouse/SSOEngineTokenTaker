@@ -1,0 +1,11 @@
+ext {
+    extraLibrary = [
+		"android.support.multidex:android-support-multidex:1.0@jar",
+		"contactslib:contactslib:Test20150303@jar",
+		"com.orangelabs.rcs:rcs_api:rcs_api@jar",
+		"com.mirrorlink.android.commonapi:mirrorlinkcommonapi:20150126@jar",
+		"com.google.guava:guava:18.0@jar",
+		"com.htc.server.telecom.service:HtcTelecomService:20150422@jar",
+		"com.htc.opensense:socialmanager:1.0.20131009"
+		]
+}

@@ -1,0 +1,26 @@
+ext {
+    debug = false
+
+    sdkVersion = "android-23"
+
+    toolVersion = "23.0.1"
+
+    Properties androidProperties = new Properties()
+    androidProperties.load(new FileInputStream("${project.rootDir}/local.properties"))
+    sdkDir = androidProperties.get('sdk.dir')
+
+    mavenServer = [
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/HDK-snapshots", 
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/Custom-snapshots",
+        "http://prebuild-repositories.htc.com.tw:8081/artifactory/HICRelease"
+    ]
+
+    proguard = [
+		"proguard-hdklib1.txt",
+		"proguard-project.txt",
+		"${sdkDir}/tools/proguard/proguard-android.txt",
+		"proguard-hdklib3.txt",
+		"proguard-hdklib0.txt"
+	]
+
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SSOEngineTokenTaker</string>
+
+    <string name="hello_world">Querying...</string>
+    <string name="action_settings">QueryAppToken</string>
+    <string name="hello_world_1">Get Token....</string>
+    <string name="title_activity_call_me">CallMeActivity</string>
+</resources>
