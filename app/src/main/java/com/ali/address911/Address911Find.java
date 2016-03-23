@@ -40,8 +40,6 @@ public class Address911Find {
     private static final int TERMINATE_WAITING_DIALOG_DELAY60 = 5001;
 
 //    private static final String URL = "http://www.google.com/";
-    private String URL = "http://spg-esit.vzw.com/sit01/SSFGateway/e911Location/changeAddress";
-    private String URL04 = "http://spg-esit.vzw.com/sit04/SSFGateway/e911Location/changeAddress";
     private XmlParser mXmlParser = null;
     private static final String TAG = SSOtoken.TAG;
     private Context mContext = null;
